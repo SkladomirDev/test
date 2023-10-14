@@ -1,0 +1,62 @@
+Tom@DESKTOP-UD65QMM MINGW64 ~/Desktop/test2/test (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 7 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+
+
+-------------------------------------------
+
+
+
+Tom@DESKTOP-UD65QMM MINGW64 ~/Desktop/test2/test (main)
+$ git branch
+  branch
+* main
+
+
+---------------------------------------------
+
+
+Tom@DESKTOP-UD65QMM MINGW64 ~/Desktop/test2/test (main)
+$ git log
+commit cbbe1087b6df534943ce52c601e6a6dda687497a (HEAD -> main)
+Author: SkladomirDev <87649773+SkladomirDev@users.noreply.github.com>
+Date:   Sat Oct 14 17:00:08 2023 +0300
+
+    Create ruslan.html
+
+commit 538c078715130d08c0ec68b24f0b0adc921607b0
+Merge: 870ea64 f520eb2
+Author: SkladomirDev <87649773+SkladomirDev@users.noreply.github.com>
+Date:   Sat Oct 14 16:58:02 2023 +0300
+
+    Fix merge conflict
+
+commit 870ea64c0ff82ee78072c87134b03058c1757775
+Author: SkladomirDev <87649773+SkladomirDev@users.noreply.github.com>
+Date:   Sat Oct 14 16:56:34 2023 +0300
+
+    Add samsung word in index.html
+
+commit f520eb24c78f5699ebc65873a7d9d5500ddfe384 (branch)
+Author: SkladomirDev <87649773+SkladomirDev@users.noreply.github.com>
+Date:   Sat Oct 14 16:54:33 2023 +0300
+
+
+
+-----------------------------------------------------------------------
+
+
+
+Tom@DESKTOP-UD65QMM MINGW64 ~/Desktop/test2/test (main)
+$ git log --merges
+commit 538c078715130d08c0ec68b24f0b0adc921607b0
+Merge: 870ea64 f520eb2
+Author: SkladomirDev <87649773+SkladomirDev@users.noreply.github.com>
+Date:   Sat Oct 14 16:58:02 2023 +0300
+
+    Fix merge conflict
